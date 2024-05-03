@@ -1,0 +1,75 @@
+Health and Damage Management
+    Health Level
+    % Missing Health
+    Full Health
+    Grey Health Presence
+    % Grey Health
+    Healing
+    Taking Damage
+    Fatal Damage
+    Melee Damage Taken
+    Elemental Damage Taken
+
+Movement and Positioning
+    Movement Speed
+    Sprinting
+    Combat Slide
+    Vaulting, Climbing, Leaping, Entering Water
+    Aiming Down Sights
+    Evade
+    Perfect Dodge
+
+Combat Dynamics
+    Activating Skill
+    Skill on Cooldown
+    Activating Mod
+    Critical Hit
+    Weakspot Kill
+    Critical Kill
+    Critical Hit or Weakspot Kill
+    Dealing Weakspot Damage
+    Dealing Ranged Damage
+    Enemy Damage
+    Spending Stamina
+    Reloading
+    Charged Shot
+    Attacking from Behind
+
+Status Effects and Buffs
+    Negative Status
+    Distance to Negative Status Effect
+    Blights
+    Buffs
+    Bulwark Stack
+    Elemental Status Removal
+    Applying a Negative Status Effect
+    Enemy Burning
+    Illuminating Enemy
+
+Environmental Interaction and Survival
+    Shield Active
+    Armor Encumbrance
+    5 Seconds of Not Being Damaged
+    Targeted by Enemy
+    Carrying an Engineer Heavy Weapon
+
+Resource and Item Management
+    Ammo Pickup
+    Scrap Pickup
+    Iron Pickup
+    Relic Use
+
+Team and Allies Dynamics
+    Downed or Dead Ally
+    Human, Companion, or Minion is Downed or Killed
+    Number of Allies Wearing Same Ring
+
+Summoning and Pets
+    Summon Enters the Battlefield
+    Number of Active Summons
+
+Miscellaneous Conditions
+    % Magazine Missing
+    % Current Magazine
+    Failing to Hit Weakspot
+    EXPOSED Targets
