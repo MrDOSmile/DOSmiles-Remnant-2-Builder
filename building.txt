@@ -73,3 +73,6 @@ Miscellaneous Conditions
     % Current Magazine
     Failing to Hit Weakspot
     EXPOSED Targets
+
+
+Thang was here.
