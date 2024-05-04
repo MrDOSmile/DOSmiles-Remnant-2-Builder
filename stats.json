@@ -1,0 +1,93 @@
+{
+    "GeneralAttributes": {
+      "Health": "Total health value of the player",
+      "Stamina": "Total stamina value of the player",
+      "Armor": "Overall defensive value, reduces damage received",
+      "Weight": {
+        "description": "Overall Encumbrance of player's armor, affects Dodge type and Stamina consumption",
+        "categories": {
+          "LIGHT": {
+            "range": "0-25",
+            "DodgeType": "Fast Dodge",
+            "StaminaPenalty": "No cost penalty",
+            "DamageReduction": "25%"
+          },
+          "MEDIUM": {
+            "range": "26-50",
+            "DodgeType": "Normal Dodge",
+            "StaminaPenalty": "25% cost penalty",
+            "DamageReduction": "30%"
+          },
+          "HEAVY": {
+            "range": "51-75",
+            "DodgeType": "Slow Dodge",
+            "StaminaPenalty": "50% cost penalty",
+            "DamageReduction": "35%"
+          },
+          "ULTRA": {
+            "range": "76+",
+            "DodgeType": "Flop",
+            "StaminaPenalty": "75% cost penalty",
+            "DamageReduction": "50%"
+          }
+        }
+      },
+      "PowerLevel": "Weighted average of Archetype level and Weapon Level, determines World Level",
+      "WeaponLevel": "Weighted average of the highest level weapon in each slot",
+      "ArchetypeLevel": "Sum of the levels of your two highest level Archetypes",
+      "TotalArchetypeLevel": "Combined total of all Archetype levels, increases quality of dropped Relic Fragments"
+    },
+    "OffensiveDefensiveAttributes": {
+      "Damage": "Increases damage dealt to enemies, can be specified for different types of damage",
+      "CritChance": "Odds of landing a critical hit, can be specified for different damage types",
+      "CriticalDamage": "Damage bonus for critical hits, +50% by default",
+      "DamageReduction": {
+        "DR": "Damage reduction from effects",
+        "ArmorDR": "Damage reduction from armor",
+        "TotalDR": {
+          "description": "Total damage reduction from all sources",
+          "maxLimit": "80%",
+          "stackMethod": "multiplicative"
+        }
+      }
+    },
+    "OtherAttributes": {
+      "HealingEffectiveness": "Increases healing received from all sources",
+      "StaminaRegen": "Stamina recovered per second after consumption",
+      "GrayHealthRegen": {
+        "baseValue": "0.2",
+        "disabledConditions": ["Bleeding", "Burning", "Corroded"]
+      },
+      "Lifesteal": "Percentage of base damage dealt returned as health"
+    },
+    "StatusEffects": {
+      "ElementalStatusEffects": "Higher resistance reduces elemental damage taken",
+      "Blights": {
+        "ROOT_ROT": "Reduces maximum Stamina by 1/3, causes random coughing",
+        "CONTAMINATION": "Inflicts burst of damage, allows for immediate rebuild",
+        "FOG_CONTAMINATION": "Forces vomiting, fully built-up leads to instant death",
+        "CURSE": {
+          "effect": "Reduces maximum Health by 10%",
+          "stackable": true,
+          "maxStacks": 5
+        },
+        "SUPPRESSION": "Reduces Mod Power Generation by 50%",
+        "DATA_CORRUPTION": "Prevents use of skills or consumables"
+      },
+      "NegativeStatusEffects": {
+        "BLEEDING": "Causes damage over time, halves total healing effectiveness",
+        "BURNING": "Causes fire damage over time, removable by dodging",
+        "CORRODED": "Causes acid damage over time, increases damage taken by 10%",
+        "OVERLOADED": "Causes shock area damage, increased by nearby overloaded enemies",
+        "SLOW": "Reduces target speed, ineffective against bosses and aberrations"
+      },
+      "PositiveStatusEffects": {
+        "BULWARK": {
+          "effect": "Increases Damage Reduction by 7%",
+          "maxStacks": 5,
+          "totalEffect": "25% DR"
+        },
+        "HASTE": "Increases all types of speed except movement by 7%"
+      }
+    }
+  }
